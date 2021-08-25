@@ -7,10 +7,10 @@ namespace ejercicioA01factorial
     {
         static void Main(string[] args)
         {
-            int numero;
-            int resultado;
+            long numero;
+            long resultado;
             Console.WriteLine("Ingrese un numero positivo: ");
-            if(int.TryParse(Console.ReadLine(), out numero))
+            if(long.TryParse(Console.ReadLine(), out numero))
             {
                 resultado = Factorial.CalcularFactorial(numero);
                 Console.WriteLine($"El resultado del factorial de {numero} es {resultado}");

@@ -4,7 +4,7 @@ namespace Biblioteca
 {
     public class Factorial
     {
-        public static int CalcularFactorial(int numero)
+        public static long CalcularFactorial(long numero)
         {
             int resultado=1;
 
