@@ -15,7 +15,7 @@ namespace ejercicioI05tablas
 
             stringBuilder.AppendLine($"Tabla de multiplicar del numero {numero}");
 
-            for (int i=0; i<10; i++)
+            for (int i=0; i<=10; i++)
             {   
                 stringBuilder.AppendLine($"{numero} x {i} = {numero * i}");
             }

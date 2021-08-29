@@ -8,11 +8,18 @@ namespace ejercicioI05tablas
         static void Main(string[] args)
         {
             int numeroIngresado;
-            string tabla;
+            string tabla="";
 
             Console.WriteLine("Ingrese un numero: ");
-            numeroIngresado = int.Parse(Console.ReadLine());
-            tabla=Tablas.DevolverTabla(numeroIngresado);
+            if(int.TryParse(Console.ReadLine(), out numeroIngresado))
+            {
+                tabla=Tablas.DevolverTabla(numeroIngresado);
+            }
+            else
+            {
+                Console.WriteLine("Error. El dato ingresado no es un numero");
+            }
+           
 
             Console.WriteLine(tabla);
 
