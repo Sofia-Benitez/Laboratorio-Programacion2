@@ -1,0 +1,16 @@
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI05tablas\ejercicioI05tablas\bin\Debug\net5.0\ejercicioI05tablas.exe
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI05tablas\ejercicioI05tablas\bin\Debug\net5.0\ejercicioI05tablas.deps.json
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI05tablas\ejercicioI05tablas\bin\Debug\net5.0\ejercicioI05tablas.runtimeconfig.json
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI05tablas\ejercicioI05tablas\bin\Debug\net5.0\ejercicioI05tablas.runtimeconfig.dev.json
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI05tablas\ejercicioI05tablas\bin\Debug\net5.0\ejercicioI05tablas.dll
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI05tablas\ejercicioI05tablas\bin\Debug\net5.0\ref\ejercicioI05tablas.dll
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI05tablas\ejercicioI05tablas\bin\Debug\net5.0\ejercicioI05tablas.pdb
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI05tablas\ejercicioI05tablas\obj\Debug\net5.0\ejercicioI05tablas.csproj.AssemblyReference.cache
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI05tablas\ejercicioI05tablas\obj\Debug\net5.0\ejercicioI05tablas.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI05tablas\ejercicioI05tablas\obj\Debug\net5.0\ejercicioI05tablas.AssemblyInfoInputs.cache
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI05tablas\ejercicioI05tablas\obj\Debug\net5.0\ejercicioI05tablas.AssemblyInfo.cs
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI05tablas\ejercicioI05tablas\obj\Debug\net5.0\ejercicioI05tablas.csproj.CoreCompileInputs.cache
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI05tablas\ejercicioI05tablas\obj\Debug\net5.0\ejercicioI05tablas.dll
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI05tablas\ejercicioI05tablas\obj\Debug\net5.0\ref\ejercicioI05tablas.dll
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI05tablas\ejercicioI05tablas\obj\Debug\net5.0\ejercicioI05tablas.pdb
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI05tablas\ejercicioI05tablas\obj\Debug\net5.0\ejercicioI05tablas.genruntimeconfig.cache
