@@ -1,0 +1,16 @@
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI08medioTriangulo\ejercicioI08medioTriangulo\bin\Debug\net5.0\ejercicioI08medioTriangulo.exe
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI08medioTriangulo\ejercicioI08medioTriangulo\bin\Debug\net5.0\ejercicioI08medioTriangulo.deps.json
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI08medioTriangulo\ejercicioI08medioTriangulo\bin\Debug\net5.0\ejercicioI08medioTriangulo.runtimeconfig.json
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI08medioTriangulo\ejercicioI08medioTriangulo\bin\Debug\net5.0\ejercicioI08medioTriangulo.runtimeconfig.dev.json
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI08medioTriangulo\ejercicioI08medioTriangulo\bin\Debug\net5.0\ejercicioI08medioTriangulo.dll
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI08medioTriangulo\ejercicioI08medioTriangulo\bin\Debug\net5.0\ref\ejercicioI08medioTriangulo.dll
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI08medioTriangulo\ejercicioI08medioTriangulo\bin\Debug\net5.0\ejercicioI08medioTriangulo.pdb
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI08medioTriangulo\ejercicioI08medioTriangulo\obj\Debug\net5.0\ejercicioI08medioTriangulo.csproj.AssemblyReference.cache
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI08medioTriangulo\ejercicioI08medioTriangulo\obj\Debug\net5.0\ejercicioI08medioTriangulo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI08medioTriangulo\ejercicioI08medioTriangulo\obj\Debug\net5.0\ejercicioI08medioTriangulo.AssemblyInfoInputs.cache
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI08medioTriangulo\ejercicioI08medioTriangulo\obj\Debug\net5.0\ejercicioI08medioTriangulo.AssemblyInfo.cs
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI08medioTriangulo\ejercicioI08medioTriangulo\obj\Debug\net5.0\ejercicioI08medioTriangulo.csproj.CoreCompileInputs.cache
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI08medioTriangulo\ejercicioI08medioTriangulo\obj\Debug\net5.0\ejercicioI08medioTriangulo.dll
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI08medioTriangulo\ejercicioI08medioTriangulo\obj\Debug\net5.0\ref\ejercicioI08medioTriangulo.dll
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI08medioTriangulo\ejercicioI08medioTriangulo\obj\Debug\net5.0\ejercicioI08medioTriangulo.pdb
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI08medioTriangulo\ejercicioI08medioTriangulo\obj\Debug\net5.0\ejercicioI08medioTriangulo.genruntimeconfig.cache
