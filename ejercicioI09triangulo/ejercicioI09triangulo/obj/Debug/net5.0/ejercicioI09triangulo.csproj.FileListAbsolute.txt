@@ -1,0 +1,16 @@
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI09triangulo\ejercicioI09triangulo\bin\Debug\net5.0\ejercicioI09triangulo.exe
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI09triangulo\ejercicioI09triangulo\bin\Debug\net5.0\ejercicioI09triangulo.deps.json
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI09triangulo\ejercicioI09triangulo\bin\Debug\net5.0\ejercicioI09triangulo.runtimeconfig.json
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI09triangulo\ejercicioI09triangulo\bin\Debug\net5.0\ejercicioI09triangulo.runtimeconfig.dev.json
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI09triangulo\ejercicioI09triangulo\bin\Debug\net5.0\ejercicioI09triangulo.dll
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI09triangulo\ejercicioI09triangulo\bin\Debug\net5.0\ref\ejercicioI09triangulo.dll
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI09triangulo\ejercicioI09triangulo\bin\Debug\net5.0\ejercicioI09triangulo.pdb
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI09triangulo\ejercicioI09triangulo\obj\Debug\net5.0\ejercicioI09triangulo.csproj.AssemblyReference.cache
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI09triangulo\ejercicioI09triangulo\obj\Debug\net5.0\ejercicioI09triangulo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI09triangulo\ejercicioI09triangulo\obj\Debug\net5.0\ejercicioI09triangulo.AssemblyInfoInputs.cache
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI09triangulo\ejercicioI09triangulo\obj\Debug\net5.0\ejercicioI09triangulo.AssemblyInfo.cs
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI09triangulo\ejercicioI09triangulo\obj\Debug\net5.0\ejercicioI09triangulo.csproj.CoreCompileInputs.cache
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI09triangulo\ejercicioI09triangulo\obj\Debug\net5.0\ejercicioI09triangulo.dll
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI09triangulo\ejercicioI09triangulo\obj\Debug\net5.0\ref\ejercicioI09triangulo.dll
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI09triangulo\ejercicioI09triangulo\obj\Debug\net5.0\ejercicioI09triangulo.pdb
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI09triangulo\ejercicioI09triangulo\obj\Debug\net5.0\ejercicioI09triangulo.genruntimeconfig.cache
