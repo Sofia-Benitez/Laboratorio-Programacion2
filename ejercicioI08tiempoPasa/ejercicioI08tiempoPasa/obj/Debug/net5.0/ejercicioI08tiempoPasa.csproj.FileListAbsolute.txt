@@ -1,0 +1,16 @@
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI08tiempoPasa\ejercicioI08tiempoPasa\bin\Debug\net5.0\ejercicioI08tiempoPasa.exe
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI08tiempoPasa\ejercicioI08tiempoPasa\bin\Debug\net5.0\ejercicioI08tiempoPasa.deps.json
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI08tiempoPasa\ejercicioI08tiempoPasa\bin\Debug\net5.0\ejercicioI08tiempoPasa.runtimeconfig.json
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI08tiempoPasa\ejercicioI08tiempoPasa\bin\Debug\net5.0\ejercicioI08tiempoPasa.runtimeconfig.dev.json
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI08tiempoPasa\ejercicioI08tiempoPasa\bin\Debug\net5.0\ejercicioI08tiempoPasa.dll
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI08tiempoPasa\ejercicioI08tiempoPasa\bin\Debug\net5.0\ref\ejercicioI08tiempoPasa.dll
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI08tiempoPasa\ejercicioI08tiempoPasa\bin\Debug\net5.0\ejercicioI08tiempoPasa.pdb
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI08tiempoPasa\ejercicioI08tiempoPasa\obj\Debug\net5.0\ejercicioI08tiempoPasa.csproj.AssemblyReference.cache
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI08tiempoPasa\ejercicioI08tiempoPasa\obj\Debug\net5.0\ejercicioI08tiempoPasa.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI08tiempoPasa\ejercicioI08tiempoPasa\obj\Debug\net5.0\ejercicioI08tiempoPasa.AssemblyInfoInputs.cache
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI08tiempoPasa\ejercicioI08tiempoPasa\obj\Debug\net5.0\ejercicioI08tiempoPasa.AssemblyInfo.cs
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI08tiempoPasa\ejercicioI08tiempoPasa\obj\Debug\net5.0\ejercicioI08tiempoPasa.csproj.CoreCompileInputs.cache
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI08tiempoPasa\ejercicioI08tiempoPasa\obj\Debug\net5.0\ejercicioI08tiempoPasa.dll
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI08tiempoPasa\ejercicioI08tiempoPasa\obj\Debug\net5.0\ref\ejercicioI08tiempoPasa.dll
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI08tiempoPasa\ejercicioI08tiempoPasa\obj\Debug\net5.0\ejercicioI08tiempoPasa.pdb
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioI08tiempoPasa\ejercicioI08tiempoPasa\obj\Debug\net5.0\ejercicioI08tiempoPasa.genruntimeconfig.cache
