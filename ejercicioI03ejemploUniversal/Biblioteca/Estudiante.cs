@@ -18,7 +18,7 @@ namespace Biblioteca
         }
 
         //cnstructor de instancia
-        public Estudiante(string apellido, string nombre, string legajo, int notaPrimerParcial, int notaSegundoParcial, Random random)
+        public Estudiante(string apellido, string nombre, string legajo)
         {
             this.nombre = nombre;
             this.apellido = apellido;
@@ -44,22 +44,33 @@ namespace Biblioteca
 
         public double CalcularNotaFinal()
         {
+            double notaFinal = -1;
+
             if(this.notaPrimerParcial>=4 && this.notaSegundoParcial>=4)
             {
-                return random.Next(6, 11);
+                notaFinal= random.Next(6, 11);
             }
-            else
-            { 
-                return -1;
-            }
-            
+
+            return notaFinal;
         }
 
         public string Mostrar()
         {
             StringBuilder stringBuilder = new StringBuilder();
 
+            stringBuilder.AppendLine($"Nombre: {this.nombre}. Apellido: {this.apellido}. Legajo: {this.legajo}");
+            stringBuilder.AppendLine($"Nota primer parcial: {this.notaPrimerParcial}. Nota segundo parcial: {this.notaSegundoParcial}");
+            stringBuilder.AppendLine($"Promedio: {CalcularPromedio()}");
 
+            if(CalcularNotaFinal() == -1)
+            {
+                stringBuilder.AppendLine("Alumno desaprobado");
+            }
+            else
+            {
+                stringBuilder.AppendLine($"Nota final: {CalcularNotaFinal()}");
+            }
+            
 
             string mensaje = stringBuilder.ToString();
 
