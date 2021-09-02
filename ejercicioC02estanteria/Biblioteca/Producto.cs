@@ -50,8 +50,15 @@ namespace Biblioteca
         //== (Producto, Producto): Retornará true si las marcas y códigos de barra son iguales, false caso contrario.
         public static bool operator ==(Producto producto1, Producto producto2)
         {
-            return (producto1.marca == producto2.marca && 
+            if(!(producto1 is null || producto2 is null))
+            {
+                return (producto1.marca == producto2.marca && 
                 (producto1.codigoDeBarra == producto2.codigoDeBarra));
+            }
+            else
+            {
+                return false;
+            }
            
         }
         public static bool operator !=(Producto producto1, Producto producto2)
