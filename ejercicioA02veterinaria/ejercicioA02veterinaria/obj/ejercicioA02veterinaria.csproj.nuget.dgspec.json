@@ -1,0 +1,120 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\sofia\\Desktop\\UTN\\Laboratorio-Programacion2\\ejercicioA02veterinaria\\ejercicioA02veterinaria\\ejercicioA02veterinaria.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\sofia\\Desktop\\UTN\\Laboratorio-Programacion2\\ejercicioA02veterinaria\\ejercicioA02veterinaria\\ejercicioA02veterinaria.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sofia\\Desktop\\UTN\\Laboratorio-Programacion2\\ejercicioA02veterinaria\\ejercicioA02veterinaria\\ejercicioA02veterinaria.csproj",
+        "projectName": "ejercicioA02veterinaria",
+        "projectPath": "C:\\Users\\sofia\\Desktop\\UTN\\Laboratorio-Programacion2\\ejercicioA02veterinaria\\ejercicioA02veterinaria\\ejercicioA02veterinaria.csproj",
+        "packagesPath": "C:\\Users\\sofia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sofia\\Desktop\\UTN\\Laboratorio-Programacion2\\ejercicioA02veterinaria\\ejercicioA02veterinaria\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sofia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\sofia\\Desktop\\UTN\\Laboratorio-Programacion2\\ejercicioA02veterinaria\\Veterinaria\\Veterinaria.csproj": {
+                "projectPath": "C:\\Users\\sofia\\Desktop\\UTN\\Laboratorio-Programacion2\\ejercicioA02veterinaria\\Veterinaria\\Veterinaria.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\sofia\\Desktop\\UTN\\Laboratorio-Programacion2\\ejercicioA02veterinaria\\Veterinaria\\Veterinaria.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\sofia\\Desktop\\UTN\\Laboratorio-Programacion2\\ejercicioA02veterinaria\\Veterinaria\\Veterinaria.csproj",
+        "projectName": "Veterinaria",
+        "projectPath": "C:\\Users\\sofia\\Desktop\\UTN\\Laboratorio-Programacion2\\ejercicioA02veterinaria\\Veterinaria\\Veterinaria.csproj",
+        "packagesPath": "C:\\Users\\sofia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\sofia\\Desktop\\UTN\\Laboratorio-Programacion2\\ejercicioA02veterinaria\\Veterinaria\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\sofia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
