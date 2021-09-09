@@ -56,7 +56,7 @@ namespace ejercicioI01holaWF
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(294, 124);
+            this.ClientSize = new System.Drawing.Size(425, 124);
             this.Controls.Add(this.lblMensaje);
             this.Controls.Add(this.lblTitulo);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
