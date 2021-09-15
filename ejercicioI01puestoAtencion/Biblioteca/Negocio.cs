@@ -27,13 +27,13 @@ namespace Biblioteca
         {
             get
             {
-                return clientes.Dequeue();
+                return clientes.Dequeue();//RETORNA EL PROXIMO CLIENTE DE LA COLA y lo saca
             }
 
             set
             {
-                _ = this + value;
-            }
+                _ = this + value;//operador de descarte para que devuelva otro tipo de dato si lo agrega devuelve true 
+            }                    //usa la sobrecarga del +
         }
 
         public static bool operator ==(Negocio n, Cliente c)
@@ -68,7 +68,7 @@ namespace Biblioteca
         {
             if (n.clientes.Count > 0)
             {
-                return n.caja.Atender(n.Cliente);
+                return n.caja.Atender(n.Cliente);//uso la pripiedad que devuelve el proximo cliente a atender. 
             }
             return false;
         }
