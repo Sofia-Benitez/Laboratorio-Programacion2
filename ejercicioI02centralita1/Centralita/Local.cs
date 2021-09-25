@@ -10,34 +10,46 @@ namespace Centralita1parte
     {
         protected float costo;
 
-        
-        public Local(Llamada llamada, float costo):base(llamada.Duracion, llamada.NroDestino, llamada.NroOrigen)
+        public Local(Llamada llamada, float costo):this(llamada.Duracion, llamada.NroDestino, llamada.NroOrigen, costo)
+        {
+            
+        }
+
+        public Local(float duracion, string nroDestino, string nroOrigen, float costo) 
+            : base(duracion, nroDestino, nroOrigen)
         {
             this.costo = costo;
         }
 
-        public Local(float duracion, string nroDestino, string nroOrigen, float costo) 
-            : this(new Llamada(duracion, nroDestino, nroOrigen), costo)
-        {
-
-        }
-
-        public float CostoLlamada
+        public override float CostoLlamada
         {
             get
             {
-                return CalcularCosto();
+                return this.CalcularCosto();
             }
         }
 
-        public string Mostrar()
+        protected override string Mostrar()
         {
-            return $"{base.Mostrar()} Costo: ${this.CostoLlamada}";
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine(base.Mostrar());
+            sb.AppendLine($"El costo de la llamada es: {this.CostoLlamada}");
+            return sb.ToString();
         }
 
         private float CalcularCosto()
         {
             return base.Duracion * this.costo;
+        }
+
+        public override bool Equals(object obj)
+        {
+            return obj is Local;
+        }
+
+        public override string ToString()
+        {
+            return this.Mostrar();
         }
     }
 }

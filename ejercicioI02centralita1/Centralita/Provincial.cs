@@ -16,7 +16,7 @@ namespace Centralita1parte
             Franja_3
         }
 
-        public float CostoLlamada
+        public override float CostoLlamada
         {
             get
             {
@@ -27,13 +27,13 @@ namespace Centralita1parte
         public Provincial(Franja miFranja, Llamada llamada)
             :base(llamada.Duracion, llamada.NroDestino, llamada.NroOrigen)
         {
-            this.franjaHoraria = miFranja;
+            
         }
 
         public Provincial(string origen, Franja miFranja, float duracion, string destino)
-            : this(miFranja, new Llamada(duracion, destino, origen))
+            : base(duracion, destino, origen)
         {
-
+            this.franjaHoraria = miFranja;
         }
 
         private float CalcularCosto()
@@ -59,9 +59,22 @@ namespace Centralita1parte
             return costoLlamada;
         }
 
-        public string Mostrar()
+        protected override string Mostrar()
         {
-            return $"{base.Mostrar()} Costo: ${this.CostoLlamada}";
+            StringBuilder sb = new StringBuilder();
+            sb.AppendLine(base.Mostrar());
+            sb.AppendLine($"El costo de la llamada es: {this.CostoLlamada}");
+            return sb.ToString();
+        }
+
+        public override bool Equals(object obj)
+        {
+            return obj is Provincial;
+        }
+
+        public override string ToString()
+        {
+            return this.Mostrar();
         }
     }
 }

@@ -86,7 +86,7 @@ namespace Centralita1parte
             return gananciaRetornar;
         }
 
-        public string Mostrar()
+        public override string ToString()
         {
             StringBuilder sb = new StringBuilder();
 
@@ -97,7 +97,7 @@ namespace Centralita1parte
             sb.AppendLine("---------------------  Listado de llamadas ----------------------");
             foreach (Llamada item in this.Llamadas)
             {
-                sb.AppendLine(item.Mostrar());
+                sb.AppendLine(item.ToString());
             }
 
             return sb.ToString();
@@ -107,5 +107,42 @@ namespace Centralita1parte
         {
             this.listaDeLlamadas.Sort(Llamada.OrdenarPorDuracion);
         }
+
+        private void AgregarLlamada (Llamada llamada)
+        {
+            this.listaDeLlamadas.Add(llamada);
+        }
+
+        public static bool operator ==(Centralita c, Llamada llamada)
+        {
+            bool aux = false;
+
+            foreach (var item in c.listaDeLlamadas)
+            {
+                if(llamada == item)
+                {
+                    aux = true;
+                    break;
+                }
+            }
+
+            return aux;
+        }
+
+        public static bool operator !=(Centralita c, Llamada llamada)
+        {
+            return !(c == llamada);
+        }
+
+        public static Centralita operator +(Centralita c, Llamada llamada)
+        {
+            if(c!=llamada)
+            {
+                c.AgregarLlamada(llamada);
+            }
+            return c;
+        }
+
+
     }
 }

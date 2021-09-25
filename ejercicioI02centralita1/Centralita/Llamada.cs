@@ -3,7 +3,7 @@ using System.Text;
 
 namespace Centralita1parte
 {
-    public class Llamada
+    public abstract class Llamada
     {
         protected float duracion;
         protected string nroDestino;
@@ -15,12 +15,16 @@ namespace Centralita1parte
             Todas
         }
 
+       
         public Llamada(float duracion, string nroDestino, string nroOrigen)
         {
             this.duracion = duracion;
             this.nroDestino = nroDestino;
             this.nroOrigen = nroOrigen;
         }
+
+        //propiedad abstracta solo lectura
+        public abstract float CostoLlamada { get; }
         public float Duracion
         {
             get
@@ -66,7 +70,7 @@ namespace Centralita1parte
             return orden;
         }
 
-        public string Mostrar()
+        protected virtual string Mostrar()
         {
             StringBuilder sb = new StringBuilder();
 
@@ -77,6 +81,14 @@ namespace Centralita1parte
             return sb.ToString();
         }
 
-       
+        public static bool operator ==(Llamada l1, Llamada l2)
+        {
+            return l1.Equals(l2) && (l1.NroDestino == l2.NroDestino) && (l1.NroOrigen == l2.NroOrigen);
+        }
+        public static bool operator !=(Llamada l1, Llamada l2)
+        {
+            return !(l1 == l2);
+        }
+
     }
 }
