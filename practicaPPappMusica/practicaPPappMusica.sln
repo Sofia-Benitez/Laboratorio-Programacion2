@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "practicaPPappMusica", "practicaPPappMusica\practicaPPappMusica.csproj", "{3EB8B23E-8752-4116-9EF8-701E651C7DAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Biblioteca", "Biblioteca\Biblioteca.csproj", "{819007E0-8A91-43A5-997F-10F0F226FB3F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EB8B23E-8752-4116-9EF8-701E651C7DAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EB8B23E-8752-4116-9EF8-701E651C7DAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EB8B23E-8752-4116-9EF8-701E651C7DAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EB8B23E-8752-4116-9EF8-701E651C7DAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{819007E0-8A91-43A5-997F-10F0F226FB3F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{819007E0-8A91-43A5-997F-10F0F226FB3F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{819007E0-8A91-43A5-997F-10F0F226FB3F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{819007E0-8A91-43A5-997F-10F0F226FB3F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C8340EF2-91BA-4B0A-8211-C4F12FE31DEA}
+	EndGlobalSection
+EndGlobal
