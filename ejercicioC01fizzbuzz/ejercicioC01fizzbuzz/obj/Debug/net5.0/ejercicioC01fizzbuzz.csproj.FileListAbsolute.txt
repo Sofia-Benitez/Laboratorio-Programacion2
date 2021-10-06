@@ -1,0 +1,16 @@
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioC01fizzbuzz\ejercicioC01fizzbuzz\obj\Debug\net5.0\ejercicioC01fizzbuzz.csproj.AssemblyReference.cache
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioC01fizzbuzz\ejercicioC01fizzbuzz\obj\Debug\net5.0\ejercicioC01fizzbuzz.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioC01fizzbuzz\ejercicioC01fizzbuzz\obj\Debug\net5.0\ejercicioC01fizzbuzz.AssemblyInfoInputs.cache
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioC01fizzbuzz\ejercicioC01fizzbuzz\obj\Debug\net5.0\ejercicioC01fizzbuzz.AssemblyInfo.cs
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioC01fizzbuzz\ejercicioC01fizzbuzz\obj\Debug\net5.0\ejercicioC01fizzbuzz.csproj.CoreCompileInputs.cache
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioC01fizzbuzz\ejercicioC01fizzbuzz\bin\Debug\net5.0\ejercicioC01fizzbuzz.exe
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioC01fizzbuzz\ejercicioC01fizzbuzz\bin\Debug\net5.0\ejercicioC01fizzbuzz.deps.json
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioC01fizzbuzz\ejercicioC01fizzbuzz\bin\Debug\net5.0\ejercicioC01fizzbuzz.runtimeconfig.json
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioC01fizzbuzz\ejercicioC01fizzbuzz\bin\Debug\net5.0\ejercicioC01fizzbuzz.runtimeconfig.dev.json
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioC01fizzbuzz\ejercicioC01fizzbuzz\bin\Debug\net5.0\ejercicioC01fizzbuzz.dll
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioC01fizzbuzz\ejercicioC01fizzbuzz\bin\Debug\net5.0\ref\ejercicioC01fizzbuzz.dll
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioC01fizzbuzz\ejercicioC01fizzbuzz\bin\Debug\net5.0\ejercicioC01fizzbuzz.pdb
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioC01fizzbuzz\ejercicioC01fizzbuzz\obj\Debug\net5.0\ejercicioC01fizzbuzz.dll
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioC01fizzbuzz\ejercicioC01fizzbuzz\obj\Debug\net5.0\ref\ejercicioC01fizzbuzz.dll
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioC01fizzbuzz\ejercicioC01fizzbuzz\obj\Debug\net5.0\ejercicioC01fizzbuzz.pdb
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\ejercicioC01fizzbuzz\ejercicioC01fizzbuzz\obj\Debug\net5.0\ejercicioC01fizzbuzz.genruntimeconfig.cache
