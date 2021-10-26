@@ -16,13 +16,30 @@ namespace ejercicioI03notepad
         private OpenFileDialog openFileDialog;
         private SaveFileDialog saveFileDialog;
         private string archivo;
+        private string ultimoArchivo;
+
+        private string UltimoArchivo
+        {
+            get
+            {
+                return ultimoArchivo;
+            }
+            set
+            {
+                if (!string.IsNullOrWhiteSpace(value))
+                {
+                    ultimoArchivo = value;
+                }
+            }
+        }
         public Form1()
         {
             InitializeComponent();
 
             openFileDialog = new OpenFileDialog();
             saveFileDialog = new SaveFileDialog();
-            
+            saveFileDialog.Filter = "Archivo de texto|*.txt";
+
         }
 
         private void Form1_Load(object sender, EventArgs e)
@@ -42,8 +59,8 @@ namespace ejercicioI03notepad
             {
                 try
                 {
-                    archivo = openFileDialog.FileName;
-                    using(StreamReader streamReader = new StreamReader(archivo))
+                    ultimoArchivo = openFileDialog.FileName;
+                    using(StreamReader streamReader = new StreamReader(ultimoArchivo))
                     {
                         rtxbNotepad.Text = streamReader.ReadToEnd();
                     }
@@ -64,26 +81,46 @@ namespace ejercicioI03notepad
 
         private void guardarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if(!File.Exists(archivo))
+            if(!File.Exists(ultimoArchivo))
             {
-                if(saveFileDialog.ShowDialog() == DialogResult.OK)
-                {
-
-                }
+                UltimoArchivo = SeleccionarUbicacionGuardado();
             }
+            GuardarArchivo(UltimoArchivo);
         }
-
-        private void guardarComoToolStripMenuItem_Click(object sender, EventArgs e)
+        private string SeleccionarUbicacionGuardado()
         {
             if (saveFileDialog.ShowDialog() == DialogResult.OK)
             {
-
+                return saveFileDialog.FileName;
             }
+
+            return string.Empty;
         }
 
         private void GuardarArchivo(string ruta)
         {
-
+            try
+            {
+                if (!string.IsNullOrWhiteSpace(ruta))
+                {
+                    using StreamWriter streamWriter = new StreamWriter(ultimoArchivo);
+                    streamWriter.Write(rtxbNotepad.Text);
+                }
+            }
+            catch (Exception ex)
+            {
+                MostrarMensajeError(ex);
+            }
         }
+
+
+        private void guardarComoToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            UltimoArchivo = SeleccionarUbicacionGuardado();
+
+            GuardarArchivo(UltimoArchivo);
+        }
+
+       
     }
 }
