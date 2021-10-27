@@ -15,7 +15,6 @@ namespace ejercicioI03notepad
     {
         private OpenFileDialog openFileDialog;
         private SaveFileDialog saveFileDialog;
-        private string archivo;
         private string ultimoArchivo;
 
         private string UltimoArchivo
