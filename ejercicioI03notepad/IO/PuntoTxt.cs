@@ -1,12 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace IO
 {
-    public class PuntoTxt<T> : Archivo, IArchivo<T>
+    public class PuntoTxt : Archivo, IArchivo<string>
+        
     {
         protected override string Extension
         {
@@ -16,19 +18,42 @@ namespace IO
             }
         }
 
-        public void Guardar(string ruta, T contenido)
+        public void Guardar(string ruta, string contenido)
         {
-            throw new NotImplementedException();
+            if (ValidarSiExisteElArchivo(ruta) && ValidarExtension(ruta))
+            {
+                Escribir(ruta, contenido);
+            }
         }
 
-        public void GuardarComo(string ruta, T contenido)
+      
+        public void GuardarComo(string ruta, string contenido)
         {
-            throw new NotImplementedException();
+            if (ValidarExtension(ruta))
+            {
+                Escribir(ruta, contenido);
+            }
         }
 
-        public T Leer(string ruta)
+        public string Leer(string ruta)
         {
-            throw new NotImplementedException();
+            if (ValidarSiExisteElArchivo(ruta) && ValidarExtension(ruta))
+            {
+                using (StreamReader streamReader = new StreamReader(ruta))
+                {
+                    return streamReader.ReadToEnd();
+                }
+            }
+
+            return string.Empty;
+        }
+
+        private void Escribir(string ruta, string contenido)
+        {
+            using (StreamWriter streamWriter = new StreamWriter(ruta))
+            {
+                streamWriter.Write(contenido);
+            }
         }
     }
 }

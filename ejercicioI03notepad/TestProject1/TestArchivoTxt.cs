@@ -12,21 +12,22 @@ namespace TestProject1
         {
             //arrange
             string ruta = "archivo.txt";
-            PuntoTxt<string> archivoJson = new PuntoTxt<string>();
+            PuntoTxt archivo = new PuntoTxt();
 
             //act
-            bool retorno = archivoJson.ValidarExtension(ruta);
+            bool retorno = archivo.ValidarExtension(ruta);
 
             //assert
             Assert.IsTrue(retorno);
         }
 
         [TestMethod]
+        [ExpectedException(typeof(ArchivoIncorrectoException))]
         public void ValidarRuta_DeberiaRetornarFalseSiElArchivoEsPuntoBin()
         {
             //arrange
             string ruta = "archivo.bin";
-            PuntoTxt<string> archivoJson = new PuntoTxt<string>();
+            PuntoTxt archivoJson = new PuntoTxt();
 
             //act
             bool retorno = archivoJson.ValidarExtension(ruta);

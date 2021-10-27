@@ -8,6 +8,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using IO;
 
 namespace ejercicioI03notepad
 {
@@ -16,6 +17,9 @@ namespace ejercicioI03notepad
         private OpenFileDialog openFileDialog;
         private SaveFileDialog saveFileDialog;
         private string ultimoArchivo;
+        private PuntoJson<string> puntoJson;
+        private PuntoTxt puntoTxt;
+        private PuntoXML<string> puntoXml;
 
         private string UltimoArchivo
         {
@@ -37,7 +41,11 @@ namespace ejercicioI03notepad
 
             openFileDialog = new OpenFileDialog();
             saveFileDialog = new SaveFileDialog();
-            saveFileDialog.Filter = "Archivo de texto|*.txt";
+            puntoJson = new PuntoJson<string>();
+            puntoXml = new PuntoXML<string>();
+            puntoTxt = new PuntoTxt();
+            saveFileDialog.Filter = "Archivo de texto|*.txt| Archivo JSON|*.json| Archivo XML|*.xml";
+            openFileDialog.Filter = "Archivo de texto|*.txt| Archivo JSON|*.json| Archivo XML|*.xml";
 
         }
 
@@ -54,19 +62,27 @@ namespace ejercicioI03notepad
 
         private void abrirToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if(openFileDialog.ShowDialog() == DialogResult.OK)
+            if (openFileDialog.ShowDialog() == DialogResult.OK)
             {
+                ultimoArchivo = openFileDialog.FileName;
+
                 try
                 {
-                    ultimoArchivo = openFileDialog.FileName;
-                    using(StreamReader streamReader = new StreamReader(ultimoArchivo))
+                    switch (Path.GetExtension(UltimoArchivo))
                     {
-                        rtxbNotepad.Text = streamReader.ReadToEnd();
+                        case ".json":
+                            rtxbNotepad.Text = puntoJson.Leer(UltimoArchivo);
+                            break;
+                        case ".xml":
+                            rtxbNotepad.Text = puntoXml.Leer(UltimoArchivo);
+                            break;
+                        case ".txt":
+                            rtxbNotepad.Text = puntoTxt.Leer(UltimoArchivo);
+                            break;
                     }
                 }
                 catch (Exception ex)
                 {
-
                     MostrarMensajeError(ex);
                 }
             }
@@ -80,11 +96,14 @@ namespace ejercicioI03notepad
 
         private void guardarToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            if(!File.Exists(ultimoArchivo))
+            if (!File.Exists(UltimoArchivo))
             {
-                UltimoArchivo = SeleccionarUbicacionGuardado();
+                GuardarComo();
             }
-            GuardarArchivo(UltimoArchivo);
+            else
+            {
+                Guardar();
+            }
         }
         private string SeleccionarUbicacionGuardado()
         {
@@ -96,14 +115,46 @@ namespace ejercicioI03notepad
             return string.Empty;
         }
 
-        private void GuardarArchivo(string ruta)
+        private void Guardar()
         {
             try
             {
-                if (!string.IsNullOrWhiteSpace(ruta))
+                switch (Path.GetExtension(UltimoArchivo))
                 {
-                    using StreamWriter streamWriter = new StreamWriter(ultimoArchivo);
-                    streamWriter.Write(rtxbNotepad.Text);
+                    case ".json":
+                        puntoJson.Guardar(UltimoArchivo, rtxbNotepad.Text);
+                        break;
+                    case ".xml":
+                        puntoXml.Guardar(UltimoArchivo, rtxbNotepad.Text);
+                        break;
+                    case ".txt":
+                        puntoTxt.Guardar(UltimoArchivo, rtxbNotepad.Text);
+                        break;
+                }
+            }
+            catch (Exception ex)
+            {
+                MostrarMensajeError(ex);
+            }
+        }
+
+        private void GuardarComo()
+        {
+            UltimoArchivo = SeleccionarUbicacionGuardado();
+
+            try
+            {
+                switch (Path.GetExtension(UltimoArchivo))
+                {
+                    case ".json":
+                        puntoJson.GuardarComo(UltimoArchivo, rtxbNotepad.Text);
+                        break;
+                    case ".xml":
+                        puntoXml.GuardarComo(UltimoArchivo, rtxbNotepad.Text);
+                        break;
+                    case ".txt":
+                        puntoTxt.GuardarComo(UltimoArchivo, rtxbNotepad.Text);
+                        break;
                 }
             }
             catch (Exception ex)
@@ -115,9 +166,7 @@ namespace ejercicioI03notepad
 
         private void guardarComoToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            UltimoArchivo = SeleccionarUbicacionGuardado();
-
-            GuardarArchivo(UltimoArchivo);
+            GuardarComo();
         }
 
        
