@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using Entidades;
 
 namespace Vista
 {
@@ -24,6 +25,9 @@ namespace Vista
 
         private void RefrescarBiblioteca()
         {
+            dtgvBiblioteca.DataSource = JuegoDao.Leer();
+            dtgvBiblioteca.Refresh();
+            dtgvBiblioteca.Update();
         }
 
 

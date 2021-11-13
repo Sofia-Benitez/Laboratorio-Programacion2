@@ -17,6 +17,7 @@ namespace Entidades
         {
             cadenaConexion = @"Server=myServerAddress;Database=myDataBase;Trusted_Connection=True";
             comando = new SqlCommand();
+            comando.CommandType = System.Data.CommandType.Text;
             conexion = new SqlConnection(cadenaConexion);
             comando.Connection = conexion;
         }

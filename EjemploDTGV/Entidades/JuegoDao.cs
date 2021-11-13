@@ -17,7 +17,8 @@ namespace Entidades
         {
             cadenaConexion = @"Server=myServerAddress;Database=myDataBase;Trusted_Connection=True";
             comando = new SqlCommand();
-            conexion = new SqlConnection();
+            comando.CommandType = System.Data.CommandType.Text;
+            conexion = new SqlConnection(cadenaConexion);
             comando.Connection = conexion;
         }
 
@@ -71,16 +72,17 @@ namespace Entidades
             {
                 comando.Parameters.Clear();
                 conexion.Open();
-                comando.CommandText = $"select codigo_usuario, username from usuarios;";
+                comando.CommandText = $"SELECT JUEGOS.NOMBRE as juego, JUEGOS.GENERO as genero, JUEGOS.CODIGO_JUEGO as codigoJuego, USUARIOS.USERNAME as usuario FROM " +
+                    $"JUEGOS JOIN USUARIOS ON JUEGOS.CODIGO_USUARIO = USUARIOS.CODIGO_USUARIO;";
 
 
-                //SqlDataReader dataReader = comando.ExecuteReader();
+                SqlDataReader dataReader = comando.ExecuteReader();
 
-                //while (dataReader.Read())
-                //{
-                //    lista.Add(new Usuario(dataReader, dataReader["username"].ToString()));
-                //}
-                //return listaUsuarios;
+                while (dataReader.Read())
+                {
+                    lista.Add(new Biblioteca(Convert.ToInt32(dataReader["codigoJuego"]), dataReader["genero"].ToString(),dataReader["juego"].ToString(),dataReader["usuario"].ToString()));
+                }
+                
 
             }
             catch (Exception)

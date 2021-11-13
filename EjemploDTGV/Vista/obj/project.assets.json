@@ -548,6 +548,20 @@
             "rid": "win"
           }
         }
+      },
+      "Entidades/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.Data.SqlClient": "3.0.1",
+          "System.Data.SqlClient": "4.8.3"
+        },
+        "compile": {
+          "bin/placeholder/Entidades.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Entidades.dll": {}
+        }
       }
     }
   },
@@ -1769,10 +1783,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Entidades/1.0.0": {
+      "type": "project",
+      "path": "../Entidades/Entidades.csproj",
+      "msbuildProject": "../Entidades/Entidades.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net5.0-windows7.0": [
+      "Entidades >= 1.0.0",
       "Microsoft.Data.SqlClient >= 3.0.1",
       "System.Data.SqlClient >= 4.8.3"
     ]
@@ -1803,7 +1823,11 @@
       "frameworks": {
         "net5.0-windows7.0": {
           "targetAlias": "net5.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\sofia\\Desktop\\UTN\\Laboratorio-Programacion2\\EjemploDTGV\\Entidades\\Entidades.csproj": {
+              "projectPath": "C:\\Users\\sofia\\Desktop\\UTN\\Laboratorio-Programacion2\\EjemploDTGV\\Entidades\\Entidades.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
