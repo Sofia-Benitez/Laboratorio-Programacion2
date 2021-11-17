@@ -5,8 +5,10 @@ using System.Xml.Serialization;
 
 namespace Entidades
 {
-    public class Bombero: IArchivos<string>
+    public delegate void FinDeSalida(int bomberoIndex);
+    public class Bombero: IArchivos<string>, IArchivos<Bombero>
     {
+        public event FinDeSalida MarcarFin;
         private string nombre;
         private List<Salida> salidas;
 

@@ -1,6 +1,6 @@
 ﻿namespace Formulario
 {
-    partial class Cuartel2
+    partial class Cuartel
     {
         /// <summary>
         /// Variable del diseñador necesaria.

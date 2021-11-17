@@ -23,10 +23,10 @@ namespace Entidades
         {
             get
             {
-                return (fechaInicio - fechaFin).TotalMinutes;
+                return fechaInicio.CalcularDiferencia(fechaFin);
             }
         }
-
+        
         public void FinalizarSalida()
         {
             this.fechaFin = DateTime.Now;

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Entidades
 {
-    class BomberoOcupadoException
+    public class BomberoOcupadoException
     {
     }
 }

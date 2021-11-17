@@ -5,11 +5,11 @@ using Entidades;
 
 namespace Formulario
 {
-    public partial class Cuartel2 : Form
+    public partial class Cuartel : Form
     {
         private List<Bombero> bomberos;
         private List<PictureBox> fuegos;
-        public Cuartel2()
+        public Cuartel()
         {
             InitializeComponent();
 
@@ -24,16 +24,16 @@ namespace Formulario
         {
             bomberos = new List<Bombero>();
             Bombero b1 = new Bombero("M. Palermo");
-            b1.MarcarFin += FinalDeSalida;
+            b1.MarcarFin += OcultarBombero;
             bomberos.Add(b1);
             Bombero b2 = new Bombero("G. Schelotto");
-            b2.MarcarFin += FinalDeSalida;
+            b2.MarcarFin += OcultarBombero;
             bomberos.Add(b2);
             Bombero b3 = new Bombero("C. Tevez");
-            b3.MarcarFin += FinalDeSalida;
+            b3.MarcarFin += OcultarBombero;
             bomberos.Add(b3);
             Bombero b4 = new Bombero("F. Gago");
-            b4.MarcarFin += FinalDeSalida;
+            b4.MarcarFin += OcultarBombero;
             bomberos.Add(b4);
         }
 
