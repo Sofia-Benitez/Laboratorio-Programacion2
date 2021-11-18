@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "zIhkgrnanTZji1AHiatcdNDNj9advvKnwQDsutuBvZNi99EbLcwS+UPSNPj2vZnzRt3KAm0lYeVwksDygkiP0Q==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\sofia\\Desktop\\UTN\\Laboratorio-Programacion2\\EjercicioSimuladorAtenciónClientes\\EjercicioSimuladorAtenciónClientes\\EjercicioSimuladorAtenciónClientes.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\sofia\\.nuget\\packages\\namegenerator\\2.0.4\\namegenerator.2.0.4.nupkg.sha512",
+    "C:\\Users\\sofia\\.nuget\\packages\\system.text.json\\5.0.1\\system.text.json.5.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
