@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31613.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioElRelojero", "EjercicioElRelojero\EjercicioElRelojero.csproj", "{A6327E0B-2102-4963-A44D-C995326BD926}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Entidades", "Entidades\Entidades.csproj", "{EB64E74E-CB10-4942-90DB-57030FE33CE9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6327E0B-2102-4963-A44D-C995326BD926}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6327E0B-2102-4963-A44D-C995326BD926}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6327E0B-2102-4963-A44D-C995326BD926}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6327E0B-2102-4963-A44D-C995326BD926}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EB64E74E-CB10-4942-90DB-57030FE33CE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EB64E74E-CB10-4942-90DB-57030FE33CE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EB64E74E-CB10-4942-90DB-57030FE33CE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EB64E74E-CB10-4942-90DB-57030FE33CE9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {88231B3B-865B-4772-86B8-C367595F7FAE}
+	EndGlobalSection
+EndGlobal
