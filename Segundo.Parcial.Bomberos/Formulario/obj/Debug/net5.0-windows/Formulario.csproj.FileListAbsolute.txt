@@ -20,3 +20,9 @@ C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\Segundo.Parcial.Bomberos\Fo
 C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\Segundo.Parcial.Bomberos\Formulario\obj\Debug\net5.0-windows\ref\Formulario.dll
 C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\Segundo.Parcial.Bomberos\Formulario\obj\Debug\net5.0-windows\Formulario.pdb
 C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\Segundo.Parcial.Bomberos\Formulario\obj\Debug\net5.0-windows\Formulario.genruntimeconfig.cache
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\Segundo.Parcial.Bomberos\Formulario\bin\Debug\net5.0-windows\System.Data.SqlClient.dll
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\Segundo.Parcial.Bomberos\Formulario\bin\Debug\net5.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\Segundo.Parcial.Bomberos\Formulario\bin\Debug\net5.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\Segundo.Parcial.Bomberos\Formulario\bin\Debug\net5.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\Segundo.Parcial.Bomberos\Formulario\bin\Debug\net5.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\sofia\Desktop\UTN\Laboratorio-Programacion2\Segundo.Parcial.Bomberos\Formulario\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
